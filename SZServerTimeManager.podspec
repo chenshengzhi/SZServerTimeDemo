@@ -7,8 +7,6 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/chenshengzhi"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "chenshengzhi" => "329012084@qq.com" }
-  # s.platform     = :ios, "7.0"
-  # s.ios.deployment_target = "7.0"
   s.source       = { :git => "https://github.com/chenshengzhi/SZServerTimeDemo.git", :tag => s.version.to_s }
   s.source_files = "SZServerTimeManager", "SZServerTimeManager/*.{h,m}"
 
